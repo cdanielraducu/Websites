@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+
+}
+.inner_header{
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.logo {
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo {
+  color:white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'PT Sans Narrow';
+  font-size: 32px;
+}
+.logo h1 span {
+  color: gold;
+}
+.navigation {
+  float: right;
+  height: 100%;
+
+}
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+.navigation a:last-child{
+  paddint-right:0;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align:  middle;
+  height: 100%;
+  color: white;
+  font-family: 'PT Sans Narrow';
+  font-size:16px;
+}
+
+.header_home {
+  width: 100%;
+  height: 500px;
+  display: block;
+  position: relative;
+  top: 100px;
+}
+
+.inner_home{
+  width: 10%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+
+}
+.inner_home h1{
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Lobster';
+  height: 100%;
+  color: gold;
+  font-size: 40px;
+}
+
+.about_home {
+  position: absolute;
+  display: inline-block;
+  top: 25%;
+  left: 10%;
+  right:10%;
+}
+.image_home {
+
+  width: 80%;
+  height: 150px;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  position: absolute;
+  left: 10%;
+  right: 15%;
+}
